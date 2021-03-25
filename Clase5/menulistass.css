@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    
+}
+.menulista {
+    list-style: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+}
+.menulista li {
+    font-size: 18px;
+    line-height: 2.4rem;
+    border-bottom: solid 1px gray;
+}
+.menulista li a {
+    text-decoration: none;
+    color: gray;
+}
+.menulista li a:hover {
+    color: peru;
+
+}
+.menulista li:last-child {
+    border: none;
+}

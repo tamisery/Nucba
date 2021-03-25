@@ -1,0 +1,35 @@
+.caja {
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+}
+.container {
+    display: relative;
+    width: 500px;
+    height: 500px;
+    background-color: tomato;
+}
+#caja1 {
+    background-color: teal;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+#caja2 {
+    background-color: peru;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+#caja3 {
+    background-color: violet;
+    position: absolute;
+}
+#caja4 {
+    background-color: greenyellow;
+    position: fixed;
+}
+#caja5 {
+    background-color: red;
+    position: sticky;
+}

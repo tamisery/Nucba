@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .contenedor {
+            display: flex;
+            border:none;
+        }
+        .contenedor--con-borde{
+            border:1px solid blue;
+        }
+        .contenedor__btn{
+            border: none;
+            width: 100px;
+            height: 50px;
+            color: white;
+            background: blue;
+        }
+        .contenedor__btn--green{
+            background: green;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor contenedor--con--borde">
+        <span class="contenedor__mispan"></span>
+        <button class="contenedor__btn">Hola soy un boton</button>
+        <button class="contenedor__btn contenedor__btn--green">Hola soy un boton</button>
+    </div>
+</body>
+</html>

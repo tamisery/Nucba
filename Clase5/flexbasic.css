@@ -1,0 +1,21 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid black;
+    height: 500px;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item {
+    
+    border: 1px solid black;
+    background-image: linear-gradient(180deg, #f86cc8 0, #e864cd 16.67%, #d55cd3 33.33%, #be55d8 50%, #a250dd 66.67%, #814fe2 83.33%, #544fe7 100%);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
